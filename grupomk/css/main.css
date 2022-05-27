@@ -1,0 +1,116 @@
+/*////////////////////////////////////////////////////////////////////////////////
+///////////////////////////// Style CSS Main ////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////*/
+.text-center {
+	text-align: center;
+}
+header.main .logo .responsive-img {
+    /*background: url(../img/logo-finbar.png) center no-repeat;
+    top: 0;*/
+    width: 60px;
+	height: auto;
+}
+header.main nav a.on_press, html:not(.mobile):not(.tablet) header.main nav a:hover {
+    color: #F26D20;
+}
+.banner .sub-intro em {
+    color: #F26D20;
+    font-style: normal;
+}
+.banner .sub-a {
+	padding-top: 20px;
+}
+.cta.dir-down.dir-top::after, .cta.dir-top::after {
+    padding-top: 17px;
+}
+.banner .sub-a::before {
+	top: 0;
+}
+.banner .sub-a::before {
+	width: 70px;
+	height: 1px;
+	background: #e8e8e8;
+	position: absolute;
+	left: 0;
+	content: '';
+}
+.banner .banner-title span {
+    color: #F26D20;
+}
+.banner .content {
+    top: 32%;
+}
+html:not(.tablet):not(.phone) .cta:hover {
+    color: #3A54A8!important;
+}
+.panel-map {
+    height: 790px;
+}
+.upper-wrapper .bg-img, .upper-wrapper .bg-img::after {
+    background-position: center bottom -390px;
+}
+@media (min-width: 800px) {
+	.upper-wrapper .bg-img:after {
+     background: none;
+	}
+}
+header.main .logo {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 100px;
+    height: auto;
+    display: inline-block;
+}
+.panel-full-img {
+    height: 750px;
+}
+.panel-full-img .container {
+    height: 750px;
+}
+.panel-full-img .item {
+    top: 0px;
+}
+.floorplan-menu header {
+    background: #3A54A8;
+}
+.floorplan-menu .sub-parent.active {
+    background: #FF6D0E;
+}
+.floorplan-menu .sub-menu a.active, .floorplan-menu .sub-menu a:hover {
+    color: #FF6D0E;
+}
+.floorplan-wrapper-outer .header-meta {
+    color: #3A54A8;
+}
+.floorplan-wrapper-outer .enquire-cta {
+    color: #FF6D0E;
+}
+.floorplan-wrapper-outer .enquire-cta:hover:after {
+    color: #FF6D0E;
+}
+.panel-enquire .sub-title {
+    color: #FF6D0E;
+}
+.enquire-form .btn {
+    background: #3A54A8;
+}
+.enquire-form .btn:hover {
+    background: #3A548F;
+}
+.panel-gallery .sub-title {
+    color: #FF6D0E;
+}
+.cta-bar {
+    background-color: #3A54A8;
+}
+.cta-bar:focus, .cta-bar:hover {
+    background-color: #3A548F;
+}
+@media (max-height: 800px) and (min-width: 831px) {
+    .upper-wrapper {
+    	height: 700px;
+	}
+}

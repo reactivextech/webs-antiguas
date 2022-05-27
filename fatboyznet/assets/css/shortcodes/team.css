@@ -1,0 +1,148 @@
+
+/* team style one 
+=================================*/
+.team-img {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #f1f1f1;
+    -moz-box-shadow:inset 0px 0px 0px 2px #f1f1f1;
+    box-shadow:inset 0px 0px 0px 2px #f1f1f1;
+}
+.all-team-member{
+	position:relative;
+	z-index:1;
+}
+.team-img > img {z-index:-1;}
+.single-member {overflow: hidden;}
+.team-img,.team-img > img {position: relative;}
+.team-img,
+.team-img > img,
+.team-img.overlay:after,
+.single-member,
+.team-text h5,
+.team-text h3 {
+	transition: all 0.4s ease 0s;
+}
+.single-member:hover {
+  box-shadow: 0px 5px 8px rgba(0,0,0,.25);
+}
+.single-member:hover .team-img {
+  box-shadow:inset 0px 0px 0px 2px transparent;
+}
+.team-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 2;
+}
+.team-img.overlay:after,
+.team-text h5,
+.team-text h3{
+	opacity:0;transform: translate(460px,-100px) rotate(180deg);
+} 
+.single-member:hover .team-img.overlay:after,
+.single-member:hover .team-text h5,.single-member:hover .team-text h3{
+	opacity:1;transform: translate(0,0px);
+}
+.single-member .social-icon ul {
+  display: inline-block;
+  margin-top: 20px;
+}
+.team-text .social-icon a {
+    color: #434343;
+    padding: 0 15px;
+}
+.team-text .social-icon a:hover ,
+.page-header-area .right ul li a:hover,
+.single-contact li a:hover,
+.social-media li a:hover,
+.comment-box .text span a:hover,
+.login .right a:hover,
+.page-box-title span a,
+.login .left label a{color: #288feb;}
+.team-text > h3 {
+  color: #6a6a6a;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.team-text > h5 {color: #818181;}
+.team-text .social-icon {
+    transform: translateY(200px);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+	opacity:0;
+}
+.single-member:hover .team-text .social-icon{
+    transform: translateY(0);
+    transition-delay: .3s;
+	opacity:1;
+}
+.team-text > h5 {
+  font-family: "Montserrat Light",arial;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.all-team-member .col-xs-12 {
+  width: 50%;
+}
+
+}
+
+/* team style two 
+=================================*/
+.shrotcode-team.team-two .team-text > h3,
+.shrotcode-team.team-two .team-text > h5,
+.shrotcode-team.team-two .team-text .social-icon a{
+	color:#fff;
+}
+.shrotcode-team.team-two .team-text .social-icon a:hover{
+	color:#000;
+}
+
+/* team style three 
+=================================*/
+.team-three .team-text {
+  position: static;
+  top: 0;
+  padding: 5px 0;
+}
+.team-three .single-member .team-text h5,
+.team-three .single-member .team-text h3{
+  opacity: 1;
+  transform: translate(0px, 0px);
+}
+.team-three .single-member .team-text .social-icon {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.team-three .single-member .social-icon ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* team style four 
+=================================*/
+.team-four .single-member .team-text h5,
+.team-four .single-member .team-text h3{
+  opacity: 1;
+  transform: translate(0px, 0px);
+  color:#fff;
+}
+.team-four .single-member .team-text .social-icon {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.team-four .team-text {
+  background: #288feb none repeat scroll 0 0;
+  position: static;
+  padding: 5px 0;
+  top: 0;
+}
+.team-four .team-text .social-icon a {
+  color:#fff;
+}
+.team-four .team-text .social-icon a:hover {
+  color:#000;
+}
+.team-four .single-member .social-icon ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

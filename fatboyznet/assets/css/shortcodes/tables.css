@@ -1,0 +1,65 @@
+
+/* table 
+================================*/
+.shrotcode-table tr th,.shrotcode-table tr td{
+  font-family: "Montserrat Light";
+}
+.shrotcode-table tr th {
+	text-transform:capitalize;
+	margin:0;
+	color:#333;
+}
+.table-responsive {overflow-x: inherit;}
+table {width: 100%;}
+
+/* table six 
+====================================*/
+.short-table-six tr th{
+	line-height: 43px;
+	font-weight: 400;
+	color:#fff;
+	background:#288feb;
+}
+.short-table-six tr th,.short-table-six tr td{
+	line-height: 43px;
+	text-align:center;
+	font-size:14px;
+	border: 2px solid #fff;
+}
+.short-table-six tr td {
+	background: #f8f8f8 none repeat scroll 0 0;
+	text-transform: lowercase;
+	font-weight: 300;
+	color:#626262;
+}
+.short-table-six tr td i {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.3s ease 0s;
+}
+.short-table-six tr td i:hover {color: red;}
+.short-table-six .duration-select.custom-select {display: inline-block;}
+.short-table-six .duration-select.custom-select::after {
+  border-left: 0 none;
+  color: #626262;
+  content: "\f2f9";
+  font-size: 16px;
+  right: 0;
+  line-height: 43px;
+  width: auto;
+}
+.short-table-six .duration-select.custom-select select {
+  background: transparent none repeat scroll 0 0;
+  border: 0 none;
+  padding: 0 10px 0 0;
+  width: auto;
+  cursor:pointer;
+}
+.short-table-six .duration-select.custom-select select option{padding:3px 5px;}
+.short-table-six .cart-btn {margin-top: 38px;}
+.short-table-six .cart-btn a {
+    color: #fff;
+    line-height: 42px;
+    text-align: center;
+    width: 100%;
+}

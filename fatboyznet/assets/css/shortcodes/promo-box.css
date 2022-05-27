@@ -1,0 +1,135 @@
+
+/* promo box style 
+===================================*/
+.bg-color-1 {background: #243141 none repeat scroll 0 0;}
+.bg-color-2 {background: #288feb none repeat scroll 0 0;}
+.bg-color-4 {background: #f1f1f1 none repeat scroll 0 0;}
+.bg-color-5 {background: #434343 none repeat scroll 0 0;}
+.bg-icon .container {z-index: 2;}
+.bg-icon,
+.bg-icon .container{
+	position: relative;
+}
+.bg-icon-two::after {background: rgba(0, 0, 0, 0) url("../img/icons/5.html") no-repeat scroll left center;right: -13%;}
+.bg-icon::after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.promo-text {
+    position: relative;
+    z-index: 2;
+}
+.promo-text h2,.promo-text h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    text-transform: capitalize;
+}
+.promo-text p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+.promo-text .button-style-1 a {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+  color: #288feb;
+  font-size: 16px;
+  padding: 0 50px;
+  margin-top: 10px;
+  transition:.5s;
+}
+.promo-text .button-style-1 a:hover{background:transparent none repeat scroll 0 0;}
+.promo-text .button-style-1 a:hover{color: #ffffff;}
+.promo-text .button-style-1 a:focus{color: #ffffff;}
+
+/* promo style one
+======================================*/
+.shortcode-promo .promo-one{
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 50px;
+}
+
+/* promo style two
+======================================*/
+.shortcode-promo .promo-two{
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 50px;
+}
+
+/* promo style three
+======================================*/
+.promo-three {
+    border: 1px solid #243141;
+}
+.promo-three .promo-text h2, .promo-three .promo-text p {
+    color: #333;
+}
+.shortcode-promo .promo-three{
+    overflow: hidden;
+    padding: 50px;
+}
+
+/* promo style four
+======================================*/
+.promo-four.bg-icon-two::after {
+  top: 0px;
+}
+.shortcode-promo.promo-four {
+  overflow: hidden;
+  position: relative;
+}
+
+/* promo style five
+======================================*/
+.shortcode-promo .promo-five{
+    overflow: hidden;
+    padding: 50px;
+}
+.promo-five {
+    border: 1px solid #cccccc;
+}
+.promo-five .promo-text h2, .promo-five .promo-text p {
+    color: #333;
+}
+.promo-five .promo-text .button-style-1 a{box-shadow:none;}
+
+/* promo style six 
+======================================*/
+.shortcode-promo.promo-six{background:#000;}
+.shortcode-promo .promo-text .button-style-1{margin-top:20px;}
+.shortcode-promo .promo-text p{margin-top:20px;}
+.promo-six{
+    overflow: hidden;
+    position: relative;
+}
+/* promo style seven
+======================================*/
+.shortcode-promo .promo-seven{
+    overflow: hidden;
+    padding: 50px;
+}
+
+/* promo style eight 
+======================================*/
+.promo-eight.bg-icon-two::after {top: 0px;}
+.promo-eight{
+    overflow: hidden;
+    position: relative;
+}
+
+
+@media (max-width: 767px) {
+.shortcode-promo .promo-one,
+.shortcode-promo .promo-three,
+.shortcode-promo .promo-five,
+.shortcode-promo .promo-seven {
+  padding: 20px;
+}
+}

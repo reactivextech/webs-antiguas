@@ -1,0 +1,194 @@
+
+/* pricing tables default and pricing table two
+=================================*/
+.single-pricing-table:hover ,.active-hover.single-pricing-table {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.single-pricing-table {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease 0s;
+}
+.head-part {
+    overflow: hidden;
+    padding: 70px 0 25px;
+    position: relative;
+}
+.head-part > h2 {
+	color: #fff;
+	line-height: 24px;
+	margin: 0;
+	text-transform: uppercase;
+}
+.head-part > p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+.head-part > h1 {
+    color: #288feb;
+    line-height: 24px;
+    margin: 25px 0 0;
+}
+.head-part span {
+    color: #fff;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+.content-part li {
+    color: #777;
+    float: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    font-family: "Montserrat",sans-serif;
+}
+.content-part li:nth-child(odd) {
+    background: #f5f5f5 none repeat scroll 0 0;
+}
+.content-part > ul {
+    padding: 42px 0;
+}
+.content-part {
+    padding-bottom: 40px;
+}
+.content-part .button-style-1 a:hover ,.active-hover .content-part .button-style-1 a {
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.content-part .button-style-1 > a {
+	font-size: 14px;
+	line-height: 36px;
+	padding: 0 42px;
+	background: #434343 ;
+}
+
+/* pricing table one
+=================================*/
+.bg-color-1 {background: #243141 none repeat scroll 0 0;}
+.catelog h5,.active-hover .content-part .button-style-1 a,.single-service:hover .service-icon i{
+	background: #288feb none repeat scroll 0 0;
+}
+.catelog h5 {
+    color: #fff;
+    line-height: 40px;
+    margin: 0;
+    position: absolute;
+    right: -42px;
+    text-transform: uppercase;
+    top: 30px;
+    transform: rotate(45deg);
+    width: 190px;
+}
+.pricing-one .head-part > h2 {
+  line-height: 30px;
+  margin: 0 0 5px 0;
+}
+.pricing-one .head-part {
+  padding: 60px 0 95px;
+}
+.content-part,.pricing-one .head-part,.dolar-price > h1, .dolar-price > p ,.dolar-price > h1 sup,.hexagon-one{
+	position: relative;
+}
+.dolar-price {
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: -68px;
+  width: 125px;
+}
+.dolar-price > h1, .dolar-price > p {
+    color: #fff;
+    margin: 0;
+    top: -35px;
+    z-index: 5;
+}
+.dolar-price > h1 span {
+    font-size: 20px;
+    font-weight: 600;
+}
+.dolar-price > p {
+    font-weight: 300;
+    line-height: 1;
+    margin-top: 3px;
+}
+.dolar-price > h1 sup {
+    margin-right: 5px;
+    top: -6px;
+}
+.hexagon-one {
+  background: #288feb none repeat scroll 0 0;
+  bottom: -35px;
+  height: 70px;
+  transform: rotate(90deg);
+  width: 120px;
+  z-index: 1;
+  top: 100%;
+}
+.hexagon-one::before,.hexagon-one::after  {
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  width: 0;
+}
+.hexagon-one::before {
+  border-bottom: 35px solid #288feb;
+  top: -35px;
+}
+.hexagon-one::after {
+  border-top: 35px solid #288feb;
+  bottom: -35px;
+}
+.hexagon-one.white-hexagon::before {
+  border-bottom-color:#fff;
+}
+.hexagon-one.white-hexagon::after {
+  border-top-color:#fff;
+}
+.hexagon-one.white-hexagon {
+	background: #fff none repeat scroll 0 0;
+	height: 74px;
+	left: -2px;
+	position: absolute;
+	top: 26%;
+	width: 124px;
+}
+.pricing-one .content-part > ul {
+  padding: 78px 0 42px;
+}
+.pricing-one .content-part li:nth-child(2n+1) {
+  background: #fff none repeat scroll 0 0;
+}
+.pricing-one .content-part li {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/* pricing tables three 
+=====================================*/
+.month-price h1 {
+    color: #fff;
+    line-height: 75px;
+    margin: 0;
+}
+.pricing-three .content-part {
+    padding: 65px 40px;
+}
+.pricing-three .content-part p {
+    color: #777;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.month-price sup {
+    font-size: 20px;
+}
+.month-price span {
+    font-size: 20px;
+}
+.month-price sub {
+    font-size: 14px;
+    text-transform: lowercase;
+    top: 0;
+}
+.month-price sub{font-family:"Montserrat Light";}

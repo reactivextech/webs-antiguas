@@ -1,0 +1,43 @@
+/*------------------------------------------------------------------
+Alert
+-------------------------------------------------------------------*/
+.alert {
+    border-radius: 2px !important;
+    -webkit-transition: box-shadow 0.3s;
+    -moz-transition: box-shadow 0.3s;
+    -ms-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.alert i {
+    font-size: 25px;
+    margin-right: 10px;
+    float: left;
+}
+.alert-dismissable .close, .alert-dismissible .close {
+  color: #222;
+}
+.alert .alert-link {
+  text-transform: lowercase;
+  transition:.3s;
+}
+.alert .alert-link:hover {
+  text-decoration: underline;
+  color:#000;
+}
+/*
+Alert Dark Style
+------------------------------------------------- */
+.alert-style-two .alert,.alert-style-four .alert{color: #fff;}
+.info-dark {
+    background-color: #31708f;
+}
+.success-dark {
+    background-color: #00c03b;
+}
+.warning-dark {
+    background-color: #ff9c00;
+}
+.danger-dark {
+    background-color: #ff0000;
+}

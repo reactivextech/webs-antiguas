@@ -1,0 +1,168 @@
+/* accordion style title 
+========================================*/
+.short-accordion-title {
+  margin-bottom: 50px;
+}
+.short-accordion-title .title-line {
+  margin: 15px 0 20px;
+}
+.short-accordion-title .title-line::after {
+  margin: 0;
+}
+
+/* accordion heading 
+=======================================*/
+.shortcode-accordion .accordion-heading > h3 {
+    background: #f1f1f1 none repeat scroll 0 0;
+    color: #898989;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 18px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.shortcode-accordion .faq-p {
+  background: #f1f1f1 none repeat scroll 0 0;
+  border-top: 2px solid #fff;
+  padding: 25px;
+}
+.shortcode-accordion .faq-p p {
+    color: #969696;
+    line-height: 24px;
+}
+.shortcode-accordion .accordion-heading {
+    cursor: pointer;
+}
+
+/* shortcode accordion
+========================================*/
+.shortcode-accordion .panel,.accordion-three .panel {
+	width: 100%;
+	position:relative;
+}
+.shortcode-accordion .accordion-heading::after,.accordion-three .accordion-heading::after {
+	font-family:"Material-Design-Iconic-Font";
+	position: absolute;
+	text-align: center;
+}
+.panel-group {
+  margin-bottom: 0;
+}
+.panel-group .panel {
+	border-radius: none;
+	box-shadow: none;
+	border: 0 none;
+	float:none;
+}
+.panel-group .panel + .panel {
+  margin-top: 2px;
+}
+
+/* accordion-style-one 
+=========================================*/
+.accordion-style-one .accordion-heading > h3 {
+  padding: 18px 18px 18px 92px;
+}
+.accordion-style-one .accordion-heading::after {
+	background: #288feb none repeat scroll 0 0;
+	color: #fff;
+	content: "\f278";
+	font-size: 22px;
+	height: 56px;
+	line-height: 56px;
+	top: 0;
+	width: 60px;
+}
+.accordion-style-one [aria-expanded="true"] .accordion-heading:after {
+	content:"\f273";
+}
+.accordion-style-one [data-target="#accordion-one1"] .accordion-heading:after {
+	content:"\f273";
+}
+.accordion-style-one [aria-expanded="false"] .accordion-heading:after {
+	content:"\f278"!important;
+}
+/* mobile optimize 320px */
+@media (max-width: 767px) {
+.accordion-style-one,.accordion-style-three{margin-bottom:50px;}
+.short-accordion-title {
+  margin-bottom: 30px;
+}
+.accordion-style-one .accordion-heading > h3 {
+	padding: 18px 5px 18px 68px;
+}
+	
+}
+
+/* accordion-style-two 
+=========================================*/
+.accordion-style-two .accordion-heading > h3 {
+  background: #288feb none repeat scroll 0 0;
+  color: #fff;
+}
+.accordion-style-two .accordion-heading::after {
+	background: transparent none repeat scroll 0 0;
+	color: #fff;
+	content: "";
+	font-size: 22px;
+	height: 56px;
+	line-height: 56px;
+	top: 0;
+	width: 60px;
+	right: 0;
+}
+.accordion-style-two [aria-expanded="true"] .accordion-heading:after {
+	content:"\f273";
+}
+.accordion-style-two [data-target="#accordion-two1"] .accordion-heading:after {
+	content:"\f273";
+}
+.accordion-style-two [aria-expanded="false"] .accordion-heading:after {
+	content:"\f278"!important;
+}
+
+/* accordion-style-three 
+=========================================*/
+.accordion-style-three .faq-p p {
+  color: #fff;
+}
+.accordion-style-three .faq-p {
+  background: #288feb none repeat scroll 0 0;
+}
+.accordion-style-three .accordion-heading > h3 {
+  color: #288feb;
+  
+}
+.accordion-style-three [aria-expanded="true"] .accordion-heading > h3 {
+  background: #288feb none repeat scroll 0 0;
+  color:#fff;
+}
+.accordion-style-three [data-target="#accordion-three1"] .accordion-heading > h3 {
+  background: #288feb none repeat scroll 0 0;
+  color:#fff;
+}
+.accordion-style-three [aria-expanded="false"] .accordion-heading > h3 {
+  background: #f1f1f1 none repeat scroll 0 0;
+  color:#288feb;
+}
+
+/* accordion-style-four 
+=========================================*/
+.accordion-style-four .panel-group {
+  background: #288feb none repeat scroll 0 0;
+}
+.accordion-style-four .accordion-heading > h3 {
+  background: transparent;
+  color: #fff;
+}
+.accordion-style-four .panel {
+  background-color: transparent;
+}
+.accordion-style-four .faq-p {
+  background: #288feb none repeat scroll 0 0;
+}
+.accordion-style-four .faq-p p {
+  color: #fff;
+}
+

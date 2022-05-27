@@ -1,0 +1,153 @@
+/* accordion style title 
+========================================*/
+.short-buttons-title {
+  margin-bottom: 50px;
+}
+.short-buttons-title .title-line {
+  margin: 5px 0 20px;
+}
+.short-buttons-title .title-line::after {
+  margin: 0;
+}
+
+
+/* Hover Effect hvr-right 
+===========================================*/
+.hvr-right::before {
+	background: #288feb none repeat scroll 0 0;
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: scaleX(0);
+	transform-origin: 0 50% 0;
+	transition-duration: 0.3s;
+	transition-property: transform;
+	transition-timing-function: ease-out;
+	z-index: -1;
+}
+.hvr-right {
+	backface-visibility: hidden;
+	display: inline-block;
+	position: relative;
+	transform: translateZ(0px);
+	transition-duration: 0.3s;
+	transition-property: color;
+	vertical-align: middle;
+	overflow:hidden;
+}
+.hvr-right:hover::before, .hvr-right:focus::before, .hvr-right:active::before {
+  transform: scaleX(1);
+}
+.blue-dark::before{background: #1479d2 none repeat scroll 0 0;}
+.blue-dark a:hover ,.white-blue a:hover {color: #288feb;}
+.white-blue::before{background: #288feb none repeat scroll 0 0;}
+.white-blue a:hover ,.promo-text .button-style-1 a:hover{color: #ffffff;}
+.white-blue a:focus ,.promo-text .button-style-1 a:focus{color: #ffffff;}
+a.button-styles, .button-styles{
+    display: inline-block;
+    font-size: 15px;
+    line-height: 47px;
+    padding: 0 30px;
+	transition: all 0.3s ease 0s;
+    text-align: center;
+	font-family:"Montserrat",sans-serif;
+}
+.margin-right-5 a{
+	margin-right:5px;
+	margin-bottom:5px;
+}
+/* same button styles
+=========================================*/
+.same-button-styles a.blue-dark {
+    background: #288feb none repeat scroll 0 0;
+}
+.same-button-styles a.white-blue, .same-button-styles .white-blue {
+    color: #288feb;
+}
+.same-button-styles a.white-blue:hover {
+    color: #ffffff;
+}
+.same-button-styles a.black-blue {
+    background: #434343 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.same-button-styles a.button-styles, .same-button-styles .button-styles {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+.same-button-styles a.without-shadow.button-styles, .same-button-styles .without-shadow.button-styles {
+  box-shadow: none ;
+}
+.same-button-styles a.without-shadow.button-styles, .same-button-styles .without-shadow.button-styles {
+  box-shadow: none;
+  margin: 15px 5px 0px 0;
+}
+.middle.without-shadow.button-styles.white-blue {
+  background: #f1f1f1 none repeat scroll 0 0;
+}
+
+@media (max-width: 767px) {
+.buttons-style-two,
+.button-style-four {
+  margin-top: 50px;
+}
+
+}
+
+/* button style one and two
+=========================================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+.buttons-style-two button, .buttons-style-one button {
+  margin-bottom: 10px;
+}
+
+}
+
+@media (max-width: 767px) {
+.buttons-style-two button, .buttons-style-one button {
+  margin-bottom: 10px;
+}
+
+}
+/* button style three 
+=========================================*/
+.button-style-three a.button-styles, .button-style-three .button-styles {
+    border-radius: 15px;
+}
+/* button style four 
+=========================================*/
+.button-style-four a.button-styles {
+    border-radius: 0px;
+}
+
+/* button style five 
+=========================================*/
+.button-style-five a.button-styles {
+  margin-bottom: 15px;
+}
+
+/* button style six 
+=========================================*/
+.square-buttons a {
+  font-size: 20px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0;
+  width: 60px;
+  margin: 0 5px 0px 0;
+}
+.button-style-six .radious50 a {
+  border-radius: 50%;
+  font-size: 20px;
+  height: 30px;
+  line-height: 35px;
+  padding: 0;
+  text-align: center;
+  width: 30px;
+}
+.button-style-six .radious50 {
+    margin-top: 0px;
+}
